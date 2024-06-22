@@ -2,7 +2,7 @@
 
 Welcome to my Country Fact Generator! This is a personal project where I'm practicing my newly learnt PHP skills and applying web accessibility concepts I learned in the [Web Design Accessibility Certificate](https://www.udemy.com/certificate/UC-a794dfd1-6f13-49de-894d-57155c2d0041/).
 
-**Live Demo:** [Link to deployed project, if available]()
+**Live Demo:** [Country Fact Generator Link](https://country-facts.zeabur.app/)
 
 ## ✨ About the Project ✨
 
