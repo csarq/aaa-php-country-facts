@@ -16,6 +16,21 @@
       //print the random country to console
       echo "<script>console.log('Random Country: $randomCountry');</script>";
 
+      //fetch data for the random country
+      $countryDataURL = "https://restcountries.com/v3.1/name/" . $randomCountry;
+      $GetCountryData = file_get_contents($countryDataURL);
+      $countryData = json_decode($GetCountryData, true);
+
+      var_dump($countryData);
+
+      //print the country data to console to check it's correct
+      echo "<script>console.log('Country Data: " . json_encode($countryData) . "');</script>";
+
+$countryFlagImage = $countryData[0]["flags"]["svg"]; 
+$countryFlagAlt = $countryData[0]["flags"]["alt"];
+
+
+
     ?>
 
 <head>
@@ -32,7 +47,7 @@
   <main>
     <section aria-labelledby="countryName" role="region">
             <h2 id="countryName"><?= $randomCountry?></h2>
-            <img id="countryFlag" src="placeholder.jpg" alt="Country Flag Description To Go Here">
+            <img id="countryFlag" src="<?= $countryFlagImage;?>" alt="<?=$countryFlagAlt; ?>"/>
             <p>Region: <span id="countryRegion">Placeholder</span></p>
             <p>Population: <span id="countryPopulation">Placeholder</span></p>
             <p>Languages: <span id="countryLanguages">Placeholder</span></p>
