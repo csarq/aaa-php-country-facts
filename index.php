@@ -116,7 +116,7 @@ on line
 */
 
     ?>
-
+<!DOCTYPE html>
 <head>
   <html lang="en">
     <meta charset="UTF-8">
