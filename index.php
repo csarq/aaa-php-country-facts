@@ -128,7 +128,7 @@ on line
   </header>
 
   <main>
-    <section aria-labelledby="countryName" role="region">
+    <section>
             <h2 id="countryName"><?= $randomCountry?></h2>
             <img id="countryFlag" src="<?= $countryFlagImage;?>" alt="<?=$countryFlagAlt; ?>"/>
             <ul>
