@@ -17,7 +17,6 @@ main {
   flex-direction: column; /* Stack items vertically */
   justify-content: center; /* Center horizontally */
   align-items: center; /* Center vertically */
-  flex-grow: 1; /* Allow main to take up available space */
 }
 
 section {
@@ -28,7 +27,7 @@ section {
   border: 1px solid #ccc;
   padding: 1.5%;
   border-radius: 10px; /* Rounded corners for the section */
-  max-width: 800px; /* Limit the maximum width of the section */
+  width: 500px; /* Limit the maximum width of the section */
 }
 
 img#countryFlag {
