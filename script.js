@@ -6,5 +6,3 @@ document.addEventListener("DOMContentLoaded", function () {
     window.location.href = "index.php"; // This reloads the page with new data
   });
 });
-
-// This reloads the page with new data without AJAX, although it causes repetition for the same country and screenreaders in repeating the heading.
