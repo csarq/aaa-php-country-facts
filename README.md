@@ -29,7 +29,7 @@ I'm striving to make these country fact cards as accessible as possible by:
 
 * **Semantic HTML:** Using meaningful elements (headings, paragraphs, lists) to provide structure.
 * **Color Contrast:** Choosing colors that ensure text is easy to read.
-* **ARIA Attributes:**  (If applicable) Adding labels and descriptions to enhance screen reader experience.
+* **ARIA Attributes:**  Adding labels and descriptions to enhance screen reader experience.
 * **Clear Presentation:** Formatting the information for easy comprehension. 
 
 ## 🤗 Feedback Welcome! 🤗
