@@ -34,6 +34,6 @@ I'm striving to make these country fact cards as accessible as possible by:
 
 ## 🤗 Feedback Welcome! 🤗
 
-As I'm still learning, I value your feedback! Please feel free to open an issue or reach out if you have any suggestions or find any accessibility improvements I could make.
+As I'm still learning, I value your feedback! Please feel free to open an issue or reach out if you have any suggestions or find any accessibility improvements I could make. Sorry for the many bugs!
 
 Let's learn about the world together! 😊
