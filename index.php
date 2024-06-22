@@ -54,7 +54,7 @@ echo "</script>";*/
 
 $countryFlagImage = $countryData[0]["flags"]["svg"]; 
 // if flag is missing Alt text, then display "Image of the flag of country"
-$countryFlagAlt = $countryData[0]["flags"]["alt"] ?? "Image of the flag of " . $randomCountry; 
+$countryFlagAlt = $countryData[0]["flags"]["alt"] ?? "Flag of " . $randomCountry; 
 
 $region = $countryData[0]["region"];
 $population = $countryData[0]["population"];
