@@ -12,25 +12,23 @@ The country data is fetched from the wonderful [REST Countries API](https://rest
 
 ## 🎯 Project Goals 🎯
 
-* **PHP Basics:**  Get comfortable with fundamental PHP concepts like variables, arrays, loops, and functions.
-* **API Interaction:** Practise fetching and parsing data from a RESTful API.
+* **PHP Basics:**  Get comfortable with fundamental PHP concepts like variables, arrays and loops.
 * **Accessibility:** Apply essential accessibility practices to make the fact cards usable for everyone.
 
-## 🛠️ Technical Stack 🛠️
+## 🛠️ Tech Stack 🛠️
 
-* **PHP:** The core language used to fetch data and generate the fact cards.
-* **REST Countries API:** Provides a wealth of country information.
-* **HTML, CSS:** Structure and style the fact cards.
-* **JavaScript:**  Handle the button click event and update the fact card content.
+* PHP
+* HTML, CSS
+* JavaScript
 
 ## 🧠 Accessibility Focus 🧠
 
-I'm striving to make these country fact cards as accessible as possible by:
-
-* **Semantic HTML:** Using meaningful elements (headings, paragraphs, lists) to provide structure.
-* **Color Contrast:** Choosing colors that ensure text is easy to read.
-* **ARIA Attributes:**  Adding labels and descriptions to enhance screen reader experience.
-* **Clear Presentation:** Formatting the information for easy comprehension. 
+To ensure that this page meets accessibility requirements I used the following tools:
+* WAVE
+* Lighthouse
+* IBM Equal Access Accessibility Checker
+* Windows Narrator
+* Silktide Inspector
 
 ## 🤗 Feedback Welcome! 🤗
 
