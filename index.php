@@ -5,8 +5,6 @@
       $getListofCountries = file_get_contents($apiUrlforCountriesList);
       $ListofCountries = json_decode($getListofCountries, true);
 
-      
-
 // generate a random number to pick a random country
       $randomNumber = rand(0, 249); //there are 249 countries in the API
 
@@ -141,11 +139,7 @@ on line
 
     </section>
                 <button id="newCountryBtn">New country</button>
-     </main> 
-</main>
-    
-  
-    
+  </main> 
 
     <script type="text/javascript" src="script.js"></script>
 </body>
