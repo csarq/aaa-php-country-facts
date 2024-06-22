@@ -115,8 +115,8 @@ on line
 
     ?>
 <!DOCTYPE html>
-<head>
   <html lang="en">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>🌎 Country Fact Generator 🌎</title>
@@ -131,11 +131,13 @@ on line
     <section aria-labelledby="countryName" role="region">
             <h2 id="countryName"><?= $randomCountry?></h2>
             <img id="countryFlag" src="<?= $countryFlagImage;?>" alt="<?=$countryFlagAlt; ?>"/>
-            <p>Region: <span id="countryRegion"><?= $region;?></span></p>
-            <p>Population: <span id="countryPopulation"><?= $population;?></span></p>
-            <p>Languages: <span id="countryLanguages"><?= $languages;?></span></p>
-            <p>Capital: <span id="countryCapital"><?= $capital;?></span></p>
-            <p>Currency: <span id="countryCurrency"><?= $currency;?></span></p>
+            <ul>
+            <li>Region: <span id="countryRegion"><?= $region;?></span></li>
+             <li>Population: <span id="countryPopulation"><?= $population;?></span></li>
+             <li>Languages: <span id="countryLanguages"><?= $languages;?></span></li>
+             <li>Capital: <span id="countryCapital"><?= $capital;?></span></li>
+             <li>Currency: <span id="countryCurrency"><?= $currency;?></span></li>
+            </ul>
 
     </section>
                 <button id="newCountryBtn">New country</button>

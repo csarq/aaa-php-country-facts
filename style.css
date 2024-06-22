@@ -35,7 +35,12 @@ img#countryFlag {
   height: auto;
   border: black 1px solid;
   border-radius: 10px;
-  margin-bottom: 5%;
+  margin-bottom: 2%;
+}
+
+ul {
+  text-align: left;
+  line-height: 1.5em;
 }
 
 button {
