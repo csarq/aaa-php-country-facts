@@ -9,9 +9,7 @@ Welcome to my Countries quiz project! This is a personal project to practise som
 
 ## ✨ About the Quiz ✨
 
-This fun quiz challenges you on your knowledge of:
-
-* **Countries:** Capitals, languages and more!
+This fun quiz challenges you on your knowledge of countries, capitals, languages and more!
 
 The quiz questions are generated using the [REST Countries API](https://restcountries.com/). 
 
