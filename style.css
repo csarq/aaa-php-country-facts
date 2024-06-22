@@ -32,11 +32,11 @@ section {
 }
 
 img#countryFlag {
-  max-width: 300px;
+  width: 45%;
   height: auto;
   border: black 1px solid;
   border-radius: 10px;
-  margin-bottom: 8%;
+  margin-bottom: 5%;
 }
 
 button {
